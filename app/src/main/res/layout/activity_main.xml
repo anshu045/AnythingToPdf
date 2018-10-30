@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimary"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:id="@+id/iv_image"
+        android:layout_width="256dp"
+        android:layout_height="259dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="51dp"
+        tools:srcCompat="@tools:sample/avatars" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="243dp"
+        android:layout_height="34dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="199dp"
+        android:background="@color/colorAccent"
+        android:onClick="SelectImage"
+        android:text="Select Image"
+        android:textColor="@android:color/background_light"
+        android:textSize="24sp" />
+
+    <Button
+        android:id="@+id/btn_convert"
+        android:layout_width="257dp"
+        android:layout_height="36dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="113dp"
+        android:background="@color/colorAccent"
+        android:text="Convert"
+        android:textColor="@android:color/background_light"
+        android:onClick="ConvertImage"
+        android:textSize="24sp" />
+</RelativeLayout>
